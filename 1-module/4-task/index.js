@@ -1,3 +1,3 @@
 function checkSpam(str) {
-  // ваш код...
+  return str.match(/1xbet/i) != null || str.match(/xxx/i) != null
 }
