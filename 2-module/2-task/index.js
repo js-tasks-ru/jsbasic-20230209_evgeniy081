@@ -4,6 +4,4 @@ function isEmpty(obj) {
     arr.push(key);
   }
   return arr == 0;
-
-  // ваш код...
 }
