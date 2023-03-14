@@ -3,5 +3,5 @@ function isEmpty(obj) {
   for(let key in obj){
     arr.push(key);
   }
-  return arr == 0;
+  return arr.length === 0;
 }
