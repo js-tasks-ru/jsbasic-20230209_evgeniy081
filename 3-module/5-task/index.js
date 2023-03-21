@@ -1,6 +1,5 @@
 function getMinMax(str) {
 	let arr = str.split(' ');
-	console.log("arr:", arr);
 	let arrAllNumber = arr.filter((item) => {
 		let a = Number(item);
 		if (!isNaN(a)) {
